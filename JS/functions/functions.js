@@ -68,4 +68,9 @@ function sayThanks(name) {
   console.log(totalCost)
 
 
+
+
+  const plantNeedsWater = day => day === 'Wednesday'
+
+
   
