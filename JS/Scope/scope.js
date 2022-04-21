@@ -9,11 +9,11 @@ function logCitySkyline() {
 console.log(logCitySkyline())
 
 
-let satellite = 'The Moon'
+// let satellite = 'The Moon'
 
-let galaxy = 'The Milky Way'
+// let galaxy = 'The Milky Way'
 
-let stars = 'North Star'
+// let stars = 'North Star'
 
 function callMyNightSky () {
   return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
@@ -50,3 +50,18 @@ function logVisibleLightWaves() {
   console.log(stars);  // shows redefined 
   
 
+
+
+  const logVisibleLightWaves = () => {
+    let lightWaves = 'Moonlight';
+    let region = 'The Arctic';
+    
+    if (region === 'The Arctic'){
+      let lightWaves = 'Northern Lights'
+      console.log(lightWaves) // will log what's inside the if block
+    }
+    
+    console.log(lightWaves); // will log what's outside the if block
+  };
+  
+  logVisibleLightWaves();
